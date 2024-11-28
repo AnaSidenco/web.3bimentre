@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Tec ifmt</title>
+
+
+</head>
+
+<body>
+  <!--Seção de video-->
+  <div id="secaovideo">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/W2_pPoZrUt4?si=mNhw1snADc26wCBX"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!--seção texto do video -->
+    <div id="titulovideo">
+      <h1>My little pony: equestria girls </h1>
+      <p id="textovideo">
+        Após a coroa mágica da princesa Twilight Sparkle ser roubada por Sunset Shimmer, uma pônei que fugiu para outro
+        mundo, Twilight deve viajar para recuperá-la. Ao atravessar o portal, Twilight se transforma em uma adolescente
+        humana e descobre que está em um colégio chamado Canterlot High.<br>
+
+        Lá, ela precisa se adaptar à vida no mundo humano, enquanto tenta recuperar a coroa antes que Sunset a use para
+        seus próprios interesses sombrios. No processo, Twilight conhece versões humanas de suas amigas pôneis
+        (Applejack, Rainbow Dash, Pinkie Pie, Fluttershy e Rarity), que a ajudam a unir o colégio e enfrentar Sunset.
+      </p>
+    </div>
+  </div>
+  <!-- seção carrossel -->
+  <div id="carrossel">
+    <h1>MAIS DE QUARENTA MIL VISUALISAÇÕES</h1>
+
+    <!--divisão de cards -->
+    <div id="cards">
+      <img id="setaesquerda" onclick="DeslizarParaEsquerda()" class="seta" src="setaesquerda.svg">
+      <img id="leonardo" class="card" src="Leonardo.svg">
+      <img id="samantha" class="card" src="Samantha.svg">
+      <img id="bruna" class="card" src="bruna.svg">
+      <img id="setadireita" onclick="DeslizarParaDireita()" class="seta" src="setadireita.svg">
+    </div>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
