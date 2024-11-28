@@ -1,0 +1,69 @@
+
+.nave ul li {
+display: inline-block;
+margin-right: 10%;
+/* Espaçamento entre os itens */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para a barra de navegação */
+.nave {
+    background-color: rgb(200, 119, 200); /* Cor de fundo da barra */
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.nave ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nave ul li {
+    display: inline;
+    padding: 16px 20px;
+}
+
+.nave ul li a {
+    color: white; /* Cor do texto padrão */
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    text-align: center;
+    transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+/* Efeito de hover para mudar a cor da letra */
+.nave ul li a:hover {
+    color: rgb(190, 51, 236); /* Cor que você deseja quando o mouse estiver sobre o link */
+    background-color: transparent; /* Mantém o fundo transparente ou o original */
+    border-radius: 5px;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    background-image: url(img/Fundo\ roxo\ aquarela\ textura\ abstrata\ _\ Vetor\ Premium.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Estilo para os links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color:  rgb(215, 170, 255); /* Mesma cor de destaque */
+}
